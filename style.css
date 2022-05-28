@@ -1,0 +1,291 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+
+}
+
+body{
+    background:#f9f9f9;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.header img {
+    height: 20rem;
+    border-radius: 50%;
+}
+.header h1 {
+    font-size: 6rem;
+}
+.header .subtitulo {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+.header .creditos {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+.header .botao-header {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.ling-de-prog .ling-de-prog-heading{
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:1rem;
+
+
+    background: -webkit-linear-gradient(60deg, #912121, #fc2d2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ling-de-prog .ling-de-prog-heading-icon{
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(60deg, #912121, #fc2d2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.ling-de-prog{
+    padding:0 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ling-de-prog .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ling-de-prog .box-container .box{
+    flex:1 1 28rem;
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    margin:1.5rem;
+    padding:3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.ling-de-prog .box-container .box img{
+    height: 15rem;
+}
+
+.ling-de-prog .box-container .box h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;
+}
+
+.ling-de-prog .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+.ling-de-prog .btn{
+      margin: 10px;
+      font-size: 17px;
+      padding: 15px 30px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      border-radius: 10px;
+      display: block;
+      border: 0px;
+      font-weight: 700;
+      box-shadow: 0px 0px 14px -7px #000000;  
+      background-image: linear-gradient(45deg, #af1313 0%, #fd2222  51%, #ff0000  100%);
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .ling-de-prog .btn:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .ling-de-prog .btn:active {
+      transform: scale(0.95);
+    }
+
+
+
+    .prog-para-internet .prog-para-internet-heading{
+        text-align: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        padding:1rem;
+    
+    
+        background: -webkit-linear-gradient(60deg, #e76814, #fdb022);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .prog-para-internet .prog-para-internet-heading-icon{
+        text-align: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 5rem;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(60deg, #e76814, #fdb022);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    
+    
+    .prog-para-internet{
+        padding:0 5%;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .prog-para-internet .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .prog-para-internet .box-container .box{
+        flex:1 1 28rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        margin:1.5rem;
+        padding:3rem 2rem;
+        border-radius: .5rem;
+        text-align: center;
+        transition: .2s linear;
+    }
+    
+    .prog-para-internet .box-container .box img{
+        height: 15rem;
+    }
+    
+    .prog-para-internet .box-container .box h3{
+        text-transform: capitalize;
+        font-size: 2rem;
+        color:#333;
+        padding-top: 1rem;
+    }
+    
+    .prog-para-internet .box-container .box p{
+        font-size: 1.5rem;
+        color:#666;
+        padding: 1rem 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .prog-para-internet .btn{
+          margin: 10px;
+          font-size: 17px;
+          padding: 15px 30px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;
+          border-radius: 10px;
+          display: block;
+          border: 0px;
+          font-weight: 700;
+          box-shadow: 0px 0px 14px -7px #000000;  
+          background-image: linear-gradient(45deg, #e76814 0%, #fdb022  51%, #ffc400  100%);
+          cursor: pointer;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+        
+        .prog-para-internet .btn:hover {
+          background-position: right center;
+          /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+        
+        .prog-para-internet .btn:active {
+          transform: scale(0.95);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+@media (max-width:1200px){
+    
+    html{
+        font-size: 60%;
+    }
+
+}
