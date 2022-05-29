@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Koulen&family=Roboto&family=Satisfy&display=swap');
+
 *{
     font-family: 'Roboto', sans-serif;
     margin:0; 
@@ -5,13 +7,16 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-
+    scroll-behavior: smooth;
 }
 
 body{
     background:#f9f9f9;
 }
 
+/* ============= HEADER - SUPERIOR ============= */
+/* ============= HEADER - SUPERIOR ============= */
+/* ============= HEADER - SUPERIOR ============= */
 .header {
     display: flex;
     text-align: center;
@@ -23,14 +28,18 @@ body{
 }
 
 .header img {
-    height: 20rem;
+    height: 25rem;
     border-radius: 50%;
 }
 .header h1 {
+    font-family: 'Cinzel', cursive;
+    font-weight: 600;
     font-size: 6rem;
 }
 .header .subtitulo {
-    padding-top: 0.5rem;
+    font-family: 'Cinzel', cursive;
+    font-weight: 600;
+
     font-size: 2rem;
 }
 .header .creditos {
@@ -38,18 +47,51 @@ body{
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
 }
-.header .botao-header {
-    text-decoration: none;
-    text-transform: uppercase;
+
+.botoes-header {
+    padding-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
 }
 
+.botoes-header-materias {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.botoes-header .botao-header1 {
+    padding-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(60deg, #912121, #fc2d2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botoes-header .botao-header2 {
+    padding-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(60deg, #e76814, #fdb022);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ============= HEADER - SUPERIOR ============= */
+/* ============= HEADER - SUPERIOR ============= */
+/* ============= HEADER - SUPERIOR ============= */
 
 
 
 
 
-
-
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
 .ling-de-prog .ling-de-prog-heading{
     text-align: center;
     -webkit-background-clip: text;
@@ -74,8 +116,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
 
 .ling-de-prog{
     padding:0 5%;
@@ -120,12 +160,6 @@ body{
     padding: 1rem 0;
 }
 
-
-
-
-
-
-
 .ling-de-prog .btn{
       margin: 10px;
       font-size: 17px;
@@ -157,9 +191,15 @@ body{
     .ling-de-prog .btn:active {
       transform: scale(0.95);
     }
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
+/* ============= SESSÃO LINGUAGEM DE PROGRAMACAO ============= */
 
 
 
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
     .prog-para-internet .prog-para-internet-heading{
         text-align: center;
         -webkit-background-clip: text;
@@ -167,7 +207,6 @@ body{
         font-size: 3.5rem;
         text-transform: uppercase;
         padding:1rem;
-    
     
         background: -webkit-linear-gradient(60deg, #e76814, #fdb022);
         -webkit-background-clip: text;
@@ -184,8 +223,6 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
-    
     
     .prog-para-internet{
         padding:0 5%;
@@ -229,13 +266,6 @@ body{
         color:#666;
         padding: 1rem 0;
     }
-    
-    
-    
-    
-    
-    
-    
     .prog-para-internet .btn{
           margin: 10px;
           font-size: 17px;
@@ -267,14 +297,93 @@ body{
         .prog-para-internet .btn:active {
           transform: scale(0.95);
         }
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
+/* ============= SESSÃO PROGRAMACAO PARA INTERNET ============= */
 
+.em-breve{
+    padding:0 5%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.em-breve .em-breve-heading-icon{
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(60deg, #1470e7, #22d1fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.em-breve .em-breve-heading{
 
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:1rem;
 
+    background: -webkit-linear-gradient(60deg, #1470e7, #22d1fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
 
+.em-breve .em-breve-text{
 
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-left: 20rem;
+    padding-right: 20rem;
 
+    background: -webkit-linear-gradient(60deg, #0f468d, #1ea1c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
 
+.em-breve .btn{
+    margin: 10px;
+    margin-top: 2rem;
+    font-size: 17px;
+    padding: 15px 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #000000;  
+    background-image: linear-gradient(45deg, #2071db 0%, #1bd4d4  51%, #13daf5  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .em-breve .btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .em-breve .btn:active {
+    transform: scale(0.95);
+  }
 
 
 
@@ -286,6 +395,14 @@ body{
     
     html{
         font-size: 60%;
+    }
+
+    .em-breve .em-breve-text{
+
+        font-size: 1.8rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        
     }
 
 }
