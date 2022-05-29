@@ -397,6 +397,20 @@ body{
         font-size: 60%;
     }
 
+    .em-breve .em-breve-heading{
+
+        text-align: center;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        padding:1rem;
+    
+        background: -webkit-linear-gradient(60deg, #1470e7, #22d1fd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
     .em-breve .em-breve-text{
 
         font-size: 1.8rem;
@@ -404,5 +418,11 @@ body{
         padding-right: 6rem;
         
     }
+    .header h1 {
+        font-family: 'Cinzel', cursive;
+        font-weight: 600;
+        font-size: 4.8rem;
+    }
+
 
 }
